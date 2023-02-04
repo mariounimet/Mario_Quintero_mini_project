@@ -1,0 +1,18 @@
+@import url();
+/* url de fuentes */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 1024px) {
+
+}
