@@ -32,11 +32,34 @@
         }
     .deploy-button{
         margin-right: 20px;
+        border: none;
+        outline: none;
     }
     .deploy-button-img{
         width: 32px;
+        border: none;
+        outline: none;
     }
-
+        .link-op-dep{
+            border:none;
+            outline: none;
+            width: 100%;
+            height: 70px;
+            color: white;
+            cursor: pointer;
+        }
+        #dep-op-num-1{
+            background-color: #193b51;
+        }
+        #dep-op-num-2{
+            background-color: #1a4e6d;
+        }
+        #dep-op-num-3{
+            background-color: #18628a;
+        }
+        #dep-op-num-4{
+            background-color: #0e76a8;
+        }
 /* navbar end */
 
 @media (min-width: 768px){
