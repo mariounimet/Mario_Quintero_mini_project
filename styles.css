@@ -91,6 +91,30 @@
         .car-btn-text{
             
         }
+.about-me-section{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.me-tittle{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+.me-img-text{
+    display: flex;
+    justify-content: space-between;
+}
+.me-foto{
+    width: 100%;
+    width: 50%;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.me-text{
+    padding: 10px;
+    text-align: center;
+}
 
 @media (min-width: 768px){
     .hero{
@@ -161,5 +185,8 @@
 }
 
 @media (min-width: 1024px) {
-
+    .me-img-text{
+        width: 50%;
+        margin: 0 auto;
+    }
 }
