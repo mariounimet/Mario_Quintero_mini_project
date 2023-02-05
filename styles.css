@@ -108,9 +108,12 @@ body{
 .about-me-section{
     width: 100%;
     margin: 50px auto;
+    background-color: gray;
+    padding-bottom: 50px;
 }
 
 .me-tittle{
+    color: white;
     text-align: center;
     width: 100%;
     padding: 20px;
@@ -126,6 +129,7 @@ body{
     border-radius: 20px;
 }
 .me-text{
+    color: white;
     padding: 10px;
     text-align: center;
     font-size: 12;
@@ -195,6 +199,9 @@ body{
         justify-content: center;
         width: 100%;
     }
+.sk-box{
+    background-color:gainsboro;
+}
 
 @media (min-width: 768px){
     h1{
@@ -352,12 +359,14 @@ body{
 .tit-contact{
     text-align: center;
     padding: 30px;
+
 }
 .contact-section{
     padding-top: 30px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 100%;;
+
 }
 .form-box{
     margin-top: 25px;
