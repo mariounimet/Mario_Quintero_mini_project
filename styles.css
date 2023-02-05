@@ -48,6 +48,7 @@
         height: 40px;
         margin: 0 auto;
         background-color: #bbcfe2;
+        cursor: pointer;
     }
 @media (min-width: 768px){
     .contact-section{
