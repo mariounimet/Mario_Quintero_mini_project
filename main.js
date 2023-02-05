@@ -1,9 +1,17 @@
 const hero = document.getElementById("hero");
 let cont = 0;
 
-hero.style("background-color: #000000;");
-
-/* function cambioCar() {
+function cambioCar() {
+    if (cont == 0){
+        hero.style.backgroundImage = "url('./img/car2.png')";
+        cont += 1
+    }else if (cont == 1){
+        hero.style.backgroundImage = "url('./img/car3.png')";
+        cont += 1
+    }else{
+        hero.style.backgroundImage = "url('./img/car1.png')";
+        cont = 0
+    }
 };
 
-setInterval(cambioCar, 2000); */
+setInterval(cambioCar, 6000);
