@@ -6,10 +6,34 @@ let deployed = false
 menu.addEventListener("click", () => {
     if (!deployed){
         depMenu.innerHTML = 
-        `<button id="dep-op-num-1" class="link-op-dep" href="#exp-tit">Experiencia</button>
-        <button id="dep-op-num-2" class="link-op-dep" href="#about_me">Sobre mi</button>
-        <button id="dep-op-num-3" class="link-op-dep" href="#sk-tit">Habilidades</button>
-        <button id="dep-op-num-4" class="link-op-dep" href="">Contacto</button>`
+        `<button id="dep-op-num-1" class="link-op-dep" href="#exp-tit">
+            <a class="op-div-link" href="#experience">    
+                <div class="op-div">
+                    Experiencia
+                </div>
+            </a>
+        </button>
+        <button id="dep-op-num-2" class="link-op-dep" href="#about_me">
+            <a class="op-div-link" href="#about_me">
+                <div class="op-div">
+                    Sobre mi
+                </div>
+            </a>
+        </button>
+        <button id="dep-op-num-3" class="link-op-dep" href="#sk-tit">
+            <a class="op-div-link" href="#sk-tit">    
+                <div class="op-div">
+                    Habilidades
+                </div>
+            </a>
+        </button>
+        <button id="dep-op-num-4" class="link-op-dep" href="">
+            <a class="op-div-link" href="#tittle-contact">    
+                <div class="op-div">
+                    Contacto
+                </div>
+            </a>
+        </button>`
         deployed = true
     }else{
         depMenu.innerHTML = ``
@@ -35,6 +59,10 @@ function cambioCar() {
 
 setInterval(cambioCar, 6000);
 
+const btnHero = document.getElementById("hero-btn-right")
+btnHero.addEventListener("click", () => {
+    cambioCar()
+});
 
 const sk = {
     tec1:{name:"Python", img:"./img/python.png"},
