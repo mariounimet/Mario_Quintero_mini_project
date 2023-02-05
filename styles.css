@@ -162,6 +162,7 @@ body{
         color: white;
         text-align: center;
         height: 50px;
+        padding-top: 10px;
     }
     .card-img{
         width: 100%;
@@ -182,6 +183,12 @@ body{
         width: 100%;
         height: 50px;
         cursor: pointer;
+        text-decoration: none;
+    }
+    .c-l{
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
     }
     .experience-section{
         display: grid;
@@ -242,9 +249,38 @@ body{
     padding: 30px;
     font-size: 48px;
 }
+@keyframes py {
+    0% {background-color: transparent;}
+    2% {background-color: #7aeee0;}
+}
+@keyframes c {
+    0% {background-color: transparent;}
+    2% {background-color: #0071bc;}
+}
+@keyframes j {
+    0% {background-color: transparent;}
+    2% {background-color: #ff8a16;}
+}
+@keyframes a {
+    0% {background-color: transparent;}
+    2% {background-color: #26b711;}
+}
+@keyframes g {
+    0% {background-color: transparent;}
+    2% {background-color: #2271b3;}
+}
+@keyframes e {
+    0% {background-color: transparent;}
+    2% {background-color: #246a17;}
+}
 
 #tec1{
     border-color: #7aeee0;
+}
+#tec1:hover{
+    animation-name: py;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
 }
 #tec1-text{
     background-color: #7aeee0;
@@ -256,9 +292,19 @@ body{
 #tec2-text{
     background-color: #0071bc;
 }
+#tec2:hover{
+    animation-name: c;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+}
 
 #tec3{
     border-color: #ff8a16;
+}
+#tec3:hover{
+    animation-name: j;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
 }
 #tec3-text{
     background-color: #ff8a16;
@@ -267,6 +313,11 @@ body{
 #tec4{
     border-color: #26b711;
 }
+#tec4:hover{
+    animation-name: a;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+}
 #tec4-text{
     background-color: #26b711;
 }
@@ -274,12 +325,22 @@ body{
 #tec5{
     border-color: #2271b3;
 }
+#tec5:hover{
+    animation-name: g;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+}
 #tec5-text{
     background-color: #2271b3;
 }
 
 #tec6{
     border-color: #246a17;
+}
+#tec6:hover{
+    animation-name: e;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
 }
 #tec6-text{
     background-color: #246a17;
