@@ -7,7 +7,22 @@
     box-sizing: border-box;
 }
 
+.about-me-section{
+    margin: 0 auto;
+    display: flex;
+    height: 400px;
+    width: 80%;
 
+}
+.me-img{
+    border-radius: 40px;
+    width: 50%;
+    height: 50%;
+}
+
+.me-tittle{
+    width: 50%;
+}
 
 @media (min-width: 768px){
 
