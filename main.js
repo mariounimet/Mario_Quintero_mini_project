@@ -6,9 +6,9 @@ let deployed = false
 menu.addEventListener("click", () => {
     if (!deployed){
         depMenu.innerHTML = 
-        `<button id="dep-op-num-1" class="link-op-dep" href="">Experiencia</button>
-        <button id="dep-op-num-2" class="link-op-dep" href="">Sobre mi</button>
-        <button id="dep-op-num-3" class="link-op-dep" href="">Habilidades</button>
+        `<button id="dep-op-num-1" class="link-op-dep" href="#exp-tit">Experiencia</button>
+        <button id="dep-op-num-2" class="link-op-dep" href="#about_me">Sobre mi</button>
+        <button id="dep-op-num-3" class="link-op-dep" href="#sk-tit">Habilidades</button>
         <button id="dep-op-num-4" class="link-op-dep" href="">Contacto</button>`
         deployed = true
     }else{

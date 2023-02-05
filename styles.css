@@ -1,4 +1,4 @@
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 /* url de fuentes */
 
 * {
@@ -8,6 +8,7 @@
 }
 body{
     background-color: #dde7f0;
+    font-family: orbitron;
 }
 /* navbar start */
 .navbar{
@@ -21,6 +22,7 @@ body{
     .tittle-nav{
         color: white;
         margin-left: 10px;
+        font-size: larger;
     }
     .options{
         visibility: hidden;
@@ -88,16 +90,16 @@ body{
     .car-btn{
         border: none;
         outline: none;
-        width: 30%;
-        height: 10%;
+        width: 15%;
+        height: 6%;
         cursor: pointer;
     }
-        .car-btn-text{
-            
-        }
+    .car-btn-text{
+        font-size: small;
+    }
 .about-me-section{
     width: 100%;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .me-tittle{
@@ -118,6 +120,7 @@ body{
 .me-text{
     padding: 10px;
     text-align: center;
+    font-size: 12;
 }
 
 @media (min-width: 768px){
@@ -139,7 +142,7 @@ body{
     margin: 30px;
     width: 300px;
     box-shadow: 20px 20px 20px gray;
-    background-color: black;
+    background-color: white;
     display: grid;
     justify-content: center;
 }
@@ -157,7 +160,7 @@ body{
     }
     .card-text{
         text-decoration: none;
-        color: white;
+        color: black;
         text-align: center;
         font-size: xx-large;
     }
@@ -171,8 +174,16 @@ body{
         height: 50px;
         cursor: pointer;
     }
+    .experience-section{
+        display: grid;
+        justify-content: center;
+        width: 100%;
+    }
 
 @media (min-width: 768px){
+    h1{
+        font-size: 64px;
+    }
     .experience-section{
         display: flex;
         justify-content: space-around;
@@ -183,7 +194,12 @@ body{
         margin: 30px;
         width: 400px;
         box-shadow: 20px 20px 20px gray;
-        background-color: black;
+        background-color: white;
+    }
+    .me-text{
+        padding: 10px;
+        text-align: center;
+        font-size: 24px;
     }
 }
 
@@ -286,13 +302,15 @@ body{
         margin: 0 auto;
         height: 50px;
         width: 75%;
+        margin-top: 10px;
     }
     #form-input-3{
         height: 100px;
+        margin-top: 10px;
     }
     .info{
         grid-column: 1/span 1;
-        font-size: 24px;
+        font-size: 15px;
         text-align: center;
         display: grid;
         align-items: center;
@@ -303,9 +321,12 @@ body{
         border-radius: 10px;
         width: 15%;
         height: 40px;
-        margin: 0 auto;
+        margin: 10px auto;
         background-color: #bbcfe2;
         cursor: pointer;
+    }
+    .rrss-icon{
+        width: 48px;
     }
 @media (min-width: 768px){
     .contact-section{
@@ -321,6 +342,9 @@ body{
 }
 
 @media (min-width: 1024px) {
+    .car-btn-text{
+        font-size:xx-large;
+    }
 
     .tec-div{
         font-size: 48px;
