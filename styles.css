@@ -73,6 +73,33 @@
     /* navbar end */
 }
 
+.hero{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    width: 100%;
+    height: 870px;
+    background-image: url("./img/car1.png");
+}
+    .car-btn{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        width: 30%;
+        cursor: pointer;
+    }
+        .car-btn-text{
+            
+        }
+
+@media (min-width: 768px){
+    .hero{
+        background-color: aqua;
+        width: 100%;
+        height: 900px;
+    }
+}
+
 @media (min-width: 1024px) {
 
 }
