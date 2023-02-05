@@ -11,6 +11,9 @@
     justify-content: center;
     width: 100%;
 }
+.exp-tittle{
+    text-align: center;
+}
 .exp-card{
     border-radius: 20px;
     margin: 30px;
