@@ -6,11 +6,53 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
-
+.tit-contact{
+    text-align: center;
+    padding: 30px;
+}
+.contact-section{
+    padding-top: 30px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.form-box{
+    margin-top: 50px;
+    grid-column: 1/span 1;
+    display: grid;
+    grid-template-columns: auto;
+}
+    .form-field{
+        border: 1px solid;
+        border-radius: 5px;
+        outline: none;
+        margin: 0 auto;
+        height: 50px;
+        width: 75%;
+    }
+    #form-input-3{
+        height: 100px;
+    }
+    .info{
+        grid-column: 2/span 1;
+        font-size: 32px;
+        text-align: center;
+        display: grid;
+        align-items: center;
+        padding: 20px;
+    }
+    #form-submit{
+        border:none;
+        border-radius: 10px;
+        width: 15%;
+        height: 40px;
+        margin: 0 auto;
+        background-color: #bbcfe2;
+    }
 @media (min-width: 768px){
-
+    .contact-section{
+        width: 80%;
+    }
 }
 
 @media (min-width: 1024px) {
