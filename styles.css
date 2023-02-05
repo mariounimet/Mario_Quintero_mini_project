@@ -6,22 +6,29 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .about-me-section{
+    width: 100%;
     margin: 0 auto;
-    display: flex;
-    height: 400px;
-    width: 80%;
-
-}
-.me-img{
-    border-radius: 40px;
-    width: 50%;
-    height: 50%;
 }
 
 .me-tittle{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+.me-img-text{
+    display: flex;
+    justify-content: space-between;
+}
+.me-foto{
+    width: 100%;
     width: 50%;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.me-text{
+    padding: 10px;
+    text-align: center;
 }
 
 @media (min-width: 768px){
@@ -29,5 +36,8 @@
 }
 
 @media (min-width: 1024px) {
-
+    .me-img-text{
+        width: 50%;
+        margin: 0 auto;
+    }
 }
